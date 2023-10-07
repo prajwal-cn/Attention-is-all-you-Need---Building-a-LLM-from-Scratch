@@ -1,29 +1,10 @@
-# FreeCodeCamp - Building LLMs from Scratch
-
-## Google Colab for those who don't have a GPU: https://colab.research.google.com/drive/1_7TNpEEl8xjHlr9JzKbK5AuDKXwAkHqj?usp=sharing
+# LLM from Scratch
 
 Dependencies (assuming windows): `pip install pylzma numpy ipykernel jupyter torch --index-url https://download.pytorch.org/whl/cu118`
 
-If you don't have an NVIDIA GPU, then the `device` parameter will default to `'cpu'` since `device = 'cuda' if torch.cuda.is_available() else 'cpu'`. If device is defaulting to `'cpu'` that is fine, you will just experience slower runtimes.
-
-## All the links you should need are in this repo. I will add detailed explanations as questions and issues are posted.
-
-## Visual Studio 2022 (for lzma compression algo) - https://visualstudio.microsoft.com/downloads/
+If you don't have an NVIDIA GPU, then the `device` parameter will default to `'cpu'` since `device = 'cuda' if torch.cuda.is_available() else 'cpu'`. If device is defaulting to `'cpu'` that fine, you will just experience slower runtimes.
 
 ## OpenWebText Download - https://skylion007.github.io/OpenWebTextCorpus/
-
-## Socials
-Come settle in the Neural Nest (90% OFF) - https://www.skool.com/ai-programming-7722?invite=22c41293cb9946008981fca5637ca867
-
-My YouTube Channel - https://www.youtube.com/channel/UCjlt_l6MIdxi4KoxuMjhYxg
-
-How to SSH from Mac to Windows - https://www.youtube.com/watch?v=7hBeAb6WyIg&t=
-
-How to Setup Jupyter Notebooks in 5 minutes or less - https://www.youtube.com/watch?v=eLmweqU5VBA&t=
-
-Linkedin - https://www.linkedin.com/in/elliot-arledge-a392b7243/
-
-Join My Discord Server - https://discord.gg/pV7ByF9VNm
 
 ## Research Papers:
 Attention is All You Need - https://arxiv.org/pdf/1706.03762.pdf
